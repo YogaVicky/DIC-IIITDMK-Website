@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Favicon -->
+        <link rel="icon" href="img/favicon.png" type="image/png">
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
+        
+        <title>Contact Us</title>
+    
+        <!-- Imported CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <style type="text/css">
+		.containerbox{
+			margin-top: 5%;
+		}
+		.containercontent{
+			color: black;
+		}
+    </style>
+<body>
+        
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+		<div class="main_menu">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img style="max-width: 4rem;" src="img/logo.jpeg" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+								<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
+								<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a>
+								<li class="nav-item active"><a class="nav-link" href="contact-us.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+    <!--================ End Header Menu Area =================-->
+        
+    <!--================ Home Banner Area =================-->
+    <section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="banner_content">
+					<h2>Contact Us</h2>
+					<p>Check out the map below</p>
+					<a class="primary_btn mr-20" href="#map">Explore</a>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--================ End Home Banner Area =================-->
+
+    <!--================ Start Recent Event Area =================-->
+    <br>
+    <div id="map">
+		<div id="wrapper">
+			<script>
+				function changeAirport(){
+					document.getElementById("airport").style.display = "block";
+					document.getElementById("cc").style.display = "none";
+					document.getElementById("cmbt").style.display = "none";
+					document.getElementById("tambaram").style.display = "none";
+					
+					document.getElementById("airportH").style.color = "#999";
+					document.getElementById("ccH").style.color = "#edeaea";
+					document.getElementById("cmbtH").style.color = "#edeaea";
+					document.getElementById("tambaramH").style.color = "#edeaea";
+				}
+				
+				function changeCC(){
+					document.getElementById("airport").style.display = "none";
+					document.getElementById("cc").style.display = "block";
+					document.getElementById("cmbt").style.display = "none";
+					document.getElementById("tambaram").style.display = "none";
+					
+					document.getElementById("airportH").style.color = "#edeaea";
+					document.getElementById("ccH").style.color = "#999";
+					document.getElementById("cmbtH").style.color = "#edeaea";
+					document.getElementById("tambaramH").style.color = "#edeaea";
+				}
+				
+				function changeCMBT(){
+					document.getElementById("airport").style.display = "none";
+					document.getElementById("cc").style.display = "none";
+					document.getElementById("cmbt").style.display = "block";
+					document.getElementById("tambaram").style.display = "none";
+					
+					document.getElementById("airportH").style.color = "#edeaea";
+					document.getElementById("ccH").style.color = "#edeaea";
+					document.getElementById("cmbtH").style.color = "#999";
+					document.getElementById("tambaramH").style.color = "#edeaea";
+				}
+				
+				function changeTambaram(){
+					document.getElementById("airport").style.display = "none";
+					document.getElementById("cc").style.display = "none";
+					document.getElementById("cmbt").style.display = "none";
+					document.getElementById("tambaram").style.display = "block";
+					
+					document.getElementById("airportH").style.color = "#edeaea";
+					document.getElementById("ccH").style.color = "#edeaea";
+					document.getElementById("cmbtH").style.color = "#edeaea";
+					document.getElementById("tambaramH").style.color = "#999";
+				}
+			</script>
+			
+			<br>
+			
+			<div  class="container-fluid" align="center"  id="airport">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d124443.39854200113!2d80.05072759712793!3d12.916962147653926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a525e1f5da86397%3A0x21092f216ee26e47!2sChennai+International+Airport%2C+Meenambakkam%2C+Chennai%2C+Tamil+Nadu!3m2!1d12.994112!2d80.1708668!4m5!1s0x3a525851fbcd3b6b%3A0x9f1067aa71e3898e!2sIIITDM+Kancheepuram%2C+Melakottaiyur+Village%2C+Off+Vandalur-Kelambakkam+Road%2C+Nellikuppam%2C+Chennai%2C%2C+Vengadamangalam%2C+Tamil+Nadu+600127!3m2!1d12.839496299999999!2d80.1374898!5e0!3m2!1sen!2sin!4v1485858036904" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			</div>
+			
+			
+			<div style="width: 100%; margin: 30px; display: none" align="center" id="cc">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d248842.85426063463!2d80.03872431333522!3d12.960997124988872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a5268aaafd23aa1%3A0x72b9a0dee209a729!2sCentral+Railway+Station%2C+Park+Town%2C+Chennai%2C+Tamil+Nadu!3m2!1d13.081847999999999!2d80.277394!4m5!1s0x3a525851fbcd3b6b%3A0x9f1067aa71e3898e!2sIIITDM+Kancheepuram%2C+Melakottaiyur+Village%2C+Off+Vandalur-Kelambakkam+Road%2C+Nellikuppam%2C+Chennai%2C%2C+Vengadamangalam%2C+Tamil+Nadu+600127!3m2!1d12.839496299999999!2d80.1374898!5e0!3m2!1sen!2sin!4v1485860559431" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+				
+			</div>
+			
+			<div style="width: 100%; margin: 30px; display: none" align="center" id="cmbt">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d248845.9008546991!2d80.00143651321231!3d12.95794888728057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a5266bcc0e677fb%3A0xba2722566219b08c!2sCMBT%2C+CMBT+Passenger+Way%2C+Koyambedu%2C+Chennai%2C+Tamil+Nadu!3m2!1d13.067470799999999!2d80.2056236!4m5!1s0x3a525851fbcd3b6b%3A0x9f1067aa71e3898e!2sIIITDM+Kancheepuram%2C+Melakottaiyur+Village%2C+Off+Vandalur-Kelambakkam+Road%2C+Nellikuppam%2C+Chennai%2C%2C+Vengadamangalam%2C+Tamil+Nadu+600127!3m2!1d12.839496299999999!2d80.1374898!5e0!3m2!1sen!2sin!4v1485860647374" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+			</div>
+			
+			<div style="width: 100%; margin: 30px; display: none" align="center" id="tambaram">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d62230.13211885355!2d80.07139726564426!3d12.883059645923172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a525f6d07dad611%3A0x60fc7f42a6e81303!2sTambaram+Railway+Station%2C+Tambaram+Railway+Bridge%2C+East+Tambaram%2C+Chennai%2C+Tamil+Nadu!3m2!1d12.9259177!2d80.1181198!4m5!1s0x3a525851fbcd3b6b%3A0x9f1067aa71e3898e!2sIIITDM+Kancheepuram%2C+Melakottaiyur+Village%2C+Off+Vandalur-Kelambakkam+Road%2C+Nellikuppam%2C+Chennai%2C%2C+Vengadamangalam%2C+Tamil+Nadu+600127!3m2!1d12.839496299999999!2d80.1374898!5e0!3m2!1sen!2sin!4v1485860758207" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+			</div>
+		
+    </div>
+    
+    	
+<div style="background-color: white; width: 100%; height: 40px;"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi', layout: 	google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script src="../css/jquery.min.js"></script>
+    <script src="../css/jquery.scrollex.min.js"></script>
+    <script src="../css/jquery.scrolly.min.js"></script>
+    <script src="../css/skel.min.js"></script>
+    <script src="../css/util.js"></script>
+    <script src="../css/main.js"></script>
+    
+    <script>
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+} else {
+x.className = "topnav";
+}
+}
+</script>
+
+    <!--================ End Recent Event Area =================-->
+        
+  	    <!--================ Start footer Area  =================-->	
+	<footer>
+		<div class="footer-area">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title large_title">Our Vision</h4>
+							<p>The Vision of the proposed DIC at IIITDM Kancheepuram is to become a premier hub of excellence in IT enabled Design and Manufacturing education that creates and develops a new generation of engineers and technologists with the ability and mind-set to lead Indian industries in globally competitive economic environment and also to disseminate the knowledge to percolate at the grassroots level.</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Quick Links</h4>
+							<ul class="list">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about-us.html">About</a></li>
+								<li><a href="">Gallery</a></li>
+								<li><a href="">Projects</a></li>
+								<li><a href="">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget instafeed">
+							<h4 class="footer_title">Gallery</h6>
+								<ul class="list instafeed d-flex flex-wrap">
+									<li><img style="width:70px;" src="img/event/4.png" alt=""></li>
+									<li><img style="width:70px;" src="img/event/61.png" alt=""></li>
+									<li><img style="width:70px;" src="img/event/1.png" alt=""></li>
+									<li><img style="width:70px;" src="img/event/11.png" alt=""></li>
+									<li><img style="width:70px;" src="img/event/14.png" alt=""></li>
+									<li><img style="width:70px;" src="img/event/9.png" alt=""></li>
+								</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Contact Us</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fas fa-map-marker-alt"></span>
+									Head Office
+								</p>
+								<p>Vandalur-Kelambakkam Road<br>Chennai - 600127</p>
+
+								<p class="sm-head">
+									<span class="fas fa-phone"></span>
+									Phone Number
+								</p>
+								<p>+91-44-2747 6300<br>+91-44-2747 6301</p>
+
+								<p class="sm-head">
+									<span class="fas fa-envelope"></span>
+									Email
+								</p>
+								<p>office@iiitdm.ac.in</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<span class="footer_title"><center><span style="border: 2px solid white;border-radius: 5px;padding: 4px;"><a style="color: white;" target="blank" href="webTeam.html">Meet our Web Team</a></span></center></span>
+				</div>
+				<br>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row d-flex">
+					<p class="col-lg-12 footer-text text-center">
+						&copy; <span id="year">2020</span> | All Rights Reserved | Made by Web Team - IIITDM
+						<script>
+							document.getElementById("year").innerHTML = new Date().getFullYear();
+						</script>
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+    <!--================ End footer Area  =================-->
+        
+        <!-- Imported JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js" integrity="sha256-+r9MHvpJMAqVrQNi6Qu29BYePHsoPhwt/FGxeaNkY7I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha256-/ijcOLwFf26xEYAjW75FizKVo5tnTYiQddPZoLUHHZ8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js" integrity="sha256-aQ6KGDKk7w8XQNZsQaQnbfeC//XPUIphSp/X/ZEwtV0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js" integrity="sha256-LcyfaRZnHuDuTF98e28TxRkYm2XTcaOTCcDZW3kFDCg=" crossorigin="anonymous"></script>
+	
+	<!-- Custom JS -->
+	<script>
+		$(document).ready(function () {
+			$("a").on('click', function (event) {
+
+				if (this.hash !== "") {
+					event.preventDefault();
+
+					var hash = this.hash;
+
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+
+					});
+				}
+			});
+		});
+	</script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/custom.js"></script>
+    </body>
+</html>
